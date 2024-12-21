@@ -1,8 +1,11 @@
-//Creating Array and accessing them in components
+//Creating and accessing function in components
 let name  = "Shyam";
 let age = 20;
 let height = 5.4;
-let hobbies = ["Photography" , "Travelling" , "Gaming"]
+let hobbies = ["Photography" , "Travelling" , "Gaming"];
+function mssg(){
+  return <h1>Good luck for react carrier</h1>
+}
 function Hello(){
     return(
       <>
@@ -17,6 +20,7 @@ function Hello(){
             </ul>
           )
         })}</h1>
+        {mssg()}
       </>
     )
   }
