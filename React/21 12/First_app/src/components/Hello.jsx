@@ -1,4 +1,4 @@
-//Creating and accessing function in components
+//accessing formula in components
 let name  = "Shyam";
 let age = 20;
 let height = 5.4;
@@ -21,6 +21,7 @@ function Hello(){
           )
         })}</h1>
         {mssg()}
+        <h3>Total rating = {10+20}</h3>
       </>
     )
   }
