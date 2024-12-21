@@ -1,11 +1,11 @@
-//Using div is not the good way to wrap instead of that we will use React.Fragment
-import React from "react";
+//We can also use <> </> to wrap multiple components
+
 function App(){
   return(
-    <React.Fragment>
+    <>
       <Hello/>
       <WelcomeMessage/>
-    </React.Fragment>
+    </>
   )
 }
 
